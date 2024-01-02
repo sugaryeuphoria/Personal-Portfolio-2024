@@ -14,13 +14,18 @@
         <div class="container">
             <nav>
                 <img src="LOGO.jpg" class="logo"></img>
-                <ul>
+
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#section">About</a></li>
                     <li><a href="#services">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-
+                    <li><a href="#contact">Contact</a></li>
+                    <img class="image" width="30" height="30"
+                        src="https://img.icons8.com/ios-filled/50/000000/delete-sign--v1.png" alt="delete-sign--v1"
+                        onclick="closemenu()" />
                 </ul>
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/F25081/menu--v6.png"
+                    alt="menu--v6" onclick="openmenu()" />
             </nav>
             <div class="header-text">
                 <p>Computer Science Student</p>
@@ -256,14 +261,18 @@
                 <div>
                     <img width="64" height="64" src="https://img.icons8.com/bubbles/50/domain.png" alt="domain" />
                     <h2>More Web Design projects</h2>
-                    <p>Explore my portfolio of website design projects, including creations for FreeCodeCamp. Each project showcases my skills in web development and design. Click the link to discover a collection that demonstrates my proficiency and creativity in building functional and visually appealing websites.</p>
+                    <p>Explore my portfolio of website design projects, including creations for FreeCodeCamp. Each
+                        project showcases my skills in web development and design. Click the link to discover a
+                        collection that demonstrates my proficiency and creativity in building functional and visually
+                        appealing websites.</p>
                     <a href="https://github.com/sugaryeuphoria">learn more</a>
                 </div>
 
                 <div>
                     <img width="48" height="48" src="https://img.icons8.com/dusk/64/python.png" alt="python" />
                     <h2>Python Projects</h2>
-                    <p>Explore my Python projects on GitHub, showcasing versatile skills in web development, data analysis, and more. Your gateway to a world of coding creativity and problem-solving.</p>
+                    <p>Explore my Python projects on GitHub, showcasing versatile skills in web development, data
+                        analysis, and more. Your gateway to a world of coding creativity and problem-solving.</p>
                     <a href="https://github.com/sugaryeuphoria">learn more</a>
                 </div>
             </div>
@@ -274,50 +283,75 @@
 
         </div>
     </div>
-<div class="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h2 class="subtitle">Contact</h2>
-                <div class="social-icons">
-                <p><img width="64" height="64" src="https://img.icons8.com/nolan/64/new-post.png" alt="new-post"/>pooja32verma@gmail.com</p>
-                <p><img width="64" height="64" src="https://img.icons8.com/nolan/64/apple-phone.png" alt="apple-phone"/>+1(778)586-7091</p>
-            </div>
-                <div class="social-link">
-                    <a href="https://github.com/sugaryeuphoria"><img width="64" height="64" src="https://img.icons8.com/nolan/64/github.png" alt="github"/></a>
-               
-                
-                    
-                        <a href="http://www.linkedin.com/in/poojav3rma"><img width="64" height="64" src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin"/></a>
-                    </a>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="subtitle">Contact</h2>
+                    <div class="social-icons">
+                        <p><img width="64" height="64" src="https://img.icons8.com/nolan/64/new-post.png"
+                                alt="new-post" />pooja32verma@gmail.com</p>
+                        <p><img width="64" height="64" src="https://img.icons8.com/nolan/64/apple-phone.png"
+                                alt="apple-phone" />+1(778)586-7091</p>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://github.com/sugaryeuphoria"><img width="64" height="64"
+                                src="https://img.icons8.com/nolan/64/github.png" alt="github" /></a>
 
-                    
-            
-                            <a href="https://www.instagram.com/pooja.v3rma?igsh=ODA1NTc5OTg5Nw=="><img width="64" height="64" src="https://img.icons8.com/nolan/64/instagram-new.png" alt="instagram-new"/></a>
+
+
+                        <a href="http://www.linkedin.com/in/poojav3rma"><img width="64" height="64"
+                                src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin" /></a>
                         </a>
+
+
+
+                        <a href="https://www.instagram.com/pooja.v3rma?igsh=ODA1NTc5OTg5Nw=="><img width="64"
+                                height="64" src="https://img.icons8.com/nolan/64/instagram-new.png"
+                                alt="instagram-new" /></a>
+                        </a>
+                    </div>
+                    <a herf="#" class="btn btn2">Download Resume</a>
                 </div>
-                <a herf="#" class="btn btn2">Download Resume</a>
-            </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your E-mail" required>
-                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
-                    <button type="submit" class="butn">Submit</button>
-                    </textarea>
-                </form>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="butn">Submit</button>
+                        </textarea>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="copyright">
-    <p>copyright &#169 2024 </p>
-</div>
+    <div class="copyright">
+        <p>copyright &#169 2024 </p>
+    </div>
     </div>
     </div>
     </div>
     </div>
     </div>
 </body>
-
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycby-eE4-nSzBQHWDPgBuc785F70gpWCPT8thsbv_Fo1__4bcW2pBnppq-7QaCcrdSYgQWg/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </html>
