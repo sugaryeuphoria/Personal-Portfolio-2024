@@ -221,6 +221,45 @@ nav ul li a:hover::after{
 .contact-right{
     flex-basis:60%;
 }
-.contact-left p{
-    
+.social-icons{
+    margin-top:30px;
+}
+.social-icons img{
+    height:40px;
+    width:40px;
+}
+.social-link img{
+    padding-right:10px;
+    width:55px;
+    height:50px;
+}
+
+.social-link a{
+    text-decoration: none;
+    font-size:30px;
+    margin-right:15px;
+    color:#ababab;
+    display:inline-block;
+    height:40px;
+    width:45px;
+    margin-top:20px;
+    transition:transform 0.5s;
+}
+
+.social-icons p{
+    transform:translateY(-5px);
+}
+
+.social-link a:hover{
+    color:pink;
+    transform:translateY(-5px);
+}
+.btn.btn2{
+    display:inline-block;
+    background:grey;
+    color:black;
+    padding:10px;
+    font-weight:500;
+    margin-top:10px;
+    border-radius:10px;
 }
