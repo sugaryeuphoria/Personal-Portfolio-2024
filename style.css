@@ -331,7 +331,7 @@ form textarea {
     padding: 20px 40px;
     cursor: pointer;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 10px;
     margin-left: 45%;
 }
@@ -407,4 +407,9 @@ nav .image{
     .contact-left,.contact-right{
         flex-basis:100%;
     }
+}
+#msg{
+    color:greenyellow;
+    margin-top:-40px;
+    display:block;
 }
