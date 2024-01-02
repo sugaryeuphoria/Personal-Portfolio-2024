@@ -114,7 +114,14 @@ nav ul li a:hover::after{
     padding-top:2px;
 }
 .tab-contents ul li span{
-   color:pink;
+   color:#fff;
+   font-weight:550;
    font-size: 15px;
   
+}
+.tab-contents{
+    display:none;
+}
+.tab-contents.active-tab{
+    display:block;
 }
