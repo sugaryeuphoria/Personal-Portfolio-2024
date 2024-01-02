@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -56,11 +57,11 @@
                         narrative encapsulates my journey from a curious child to a dedicated tech enthusiast,
                         showcasing my unwavering passion for science and technology.</p><BR>
                     <div class="tabtitles">
-                        <p class="tablinks active-link">Skills</p>
-                        <p class="tablinks">Experience</p>
-                        <p class="tablinks">Education</p>
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('experience')">Education</p>
                     </div>
-                    <div class="tab-contents active-tab">
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>Data Structures and Algorithms</span></li>
                             <li><span>Python</span></li>
@@ -81,27 +82,42 @@
 
                         </ul>
                     </div>
-                    <div class="tab-contents">
+                    <div class="tab-contents " id="Experience">
                         <ul>
                             <li><span>Shivam Echotech India (Interior Designers), India — Administrative Assistant and
                                     Customer Service Representative<br>2018-2023<br>
-                                    <p>Data Management:
-                                        Proficiently managed and updated computer system data, utilizing advanced skills in data entry, database management, and system maintenance. Executed cash, credit, and check transactions with precision, ensuring accurate financial records.
+                                    <p>As a meticulous receptionist and administrative assistant, I have 
+                                        successfully managed the seamless updating of critical data in the computer 
+                                        system, ensuring accuracy and efficiency in financial transactions, including 
+                                        cash, credit, and check processes with customers. My commitment to precision 
+                                        extends to drafting. comprehensive reports and meticulously scanning and 
+                                        preparing essential documents for distribution via various channels, 
+                                        including reports, letters, and emails, adhering closely to provided instructions. 
                                         
-                                        Report Writing:
-                                        Demonstrated a high level of expertise in report writing, meticulously drafting detailed reports. Applied keen attention to accuracy and presentation, incorporating advanced software tools for enhanced visual representation.
+                                         In addition to these tasks, I excel in organizational communication by 
+                                         strategically disseminating vital information to employees. This involves 
+                                         distributing notices through email communication and prominently displaying 
+                                        hard copies on the notice board for easy reference. My responsibilities also 
+                                        encompass the meticulous coordination of appointments—maintaining a 
+                                        detailed record of scheduled appointments, booking new ones, and adeptly 
+                                        handling rescheduling requests. 
                                         
-                                        Internal Communication:
-                                        Effectively facilitated internal communication by employing strong computer skills. Utilized email platforms and notice boards to disseminate crucial information, ensuring seamless staff access and collaboration.
-                                        
-                                        Appointment Management:
-                                        Efficiently organized schedules and streamlined appointment management processes. Leveraged programming skills to develop customized scheduling solutions, optimizing booking and rescheduling procedures for increased efficiency.
-                                        
-                                        Customer Support:
-                                        Provided exemplary customer support by furnishing comprehensive information about company services. Leveraged strong communication skills through phone and email interactions. Applied programming knowledge to enhance customer service systems, ensuring a seamless and user-friendly experience.</p>
-                                </span></li>
-                            <li><span><br>Python</span></li>
+                                         Furthermore, my role involves serving as a knowledgeable point of 
+                                        contact for customers, providing detailed information about the company's 
+                                        services with professionalism and courtesy, whether over phone calls or through 
+                                        email correspondence. My commitment to excellence in reception and 
+                                        administrative functions is underscored by a dedicated approach to enhancing 
+                                        overall operational efficiency and client satisfaction.As a meticulous receptionist and administrative assistant, I have successfully managed the seamless updating of critical data in the computer system, ensuring accuracy and efficiency in financial transactions, including cash, credit, and check processes with customers. My commitment to precision extends to drafting. comprehensive reports and meticulously scanning and preparing essential documents for distribution via various channels, including reports, letters, and emails, adhering closely to provided instructions.  In addition to these tasks, I excel in organizational communication by strategically disseminating vital information to employees. This involves distributing notices through email communication and prominently displaying hard copies on the notice board for easy reference. My responsibilities also encompass the meticulous coordination of appointments—maintaining a detailed record of scheduled appointments, booking new ones, and adeptly handling rescheduling requests.  Furthermore, my role involves serving as a knowledgeable point of contact for customers, providing detailed information about the company's services with professionalism and courtesy, whether over phone calls or through email correspondence. My commitment to excellence in reception and administrative functions is underscored by a dedicated approach to enhancing overall operational efficiency and client satisfaction.<br>
+                                        Skills: Teamwork · Microsoft Office · Customer Service · Data Management · Report Writing · Appointment Scheduling · Attention to Detail · Operational Efficiency · Transactional handling · Time Management · Technical Support · Microsoft Excel · Microsoft Word · Communication</p>
+                                </span></li>               
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>Bachelor's In Computing Science<br>2022-2026<br><p>Thompson Rivers University <br>Location: Kamloops, BC, Canada</p></span></li>
 
+                            <li><span>Senior Secondary school<br>2020-2021<br><p>Spring Dale Public School <br>Location: Ludhiana , Punjab, India</p></span></li>
+                            
 
                         </ul>
                     </div>
